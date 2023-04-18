@@ -1,0 +1,45 @@
+.music{
+    justify-content: center;
+}
+.first{
+        display:grid;
+        grid-template-columns:auto auto auto ;
+        gap: 10px;
+        background-color:  white;
+        padding: 20px;
+        height: 300px;
+        width: 600px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+}
+.first > div {
+    background-color: rgba(230, 54, 10, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+  .first.item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .second{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    height: 300px;
+    width: 600px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+}
+.second > div {
+background-color: rgba(230, 54, 10, 0.8);
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+}
+.item1 {
+    grid-row-end: span 2;
+}
